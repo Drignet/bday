@@ -1,5 +1,5 @@
 setInterval(() => {
-  const randPic = Math.floor(Math.random() * 3) + 1
+  const randPic = Math.floor(Math.random() * 4) + 1
   document.querySelector("img").src = `./images/ani-${randPic}.jpg`
 }, 1500);
 
